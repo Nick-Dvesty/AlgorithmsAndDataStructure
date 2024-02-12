@@ -11,8 +11,8 @@
     }
     static (int, int) Min_1(int divisible, int divider)
     {
-        int znak_divisible = ((divisible >>> 31) ^ (divider >>> 31)) == 1 ? -1 : 1;
-        bool znak_divider = ((divisible >>> 31) | (divider >>> 31)) == 1 ? true : false;
+        int sing_divisible = ((divisible >>> 31) ^ (divider >>> 31)) == 1 ? -1 : 1;
+        bool sing_divider = ((divisible >>> 31) | (divider >>> 31)) == 1 ? true : false;
         divisible = divisible < 0 ? (divisible ^ -1) + 1 : divisible;
         divider = divider < 0 ? (divider ^ -1) + 1 : divider;
         int shift_divisible = 0, shift_divider = 0;
@@ -28,7 +28,7 @@
             }
             else answer <<= 1;
         }
-        if (znak_divider) return (znak_divisible * (answer + 1), -1 * divisible + divider);
+        if (sing_divider) return (sing_divisible * (answer + 1), -1 * divisible + divider);
         else return (answer, divisible);
     }
 }
