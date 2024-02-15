@@ -1,0 +1,14 @@
+C:\Users\Nick\source\C#\mini_5-6\obj\Debug\net8.0\mini_5-6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick\source\C#\mini_5-6\obj\Debug\net8.0\mini_5-6.AssemblyInfoInputs.cache
+C:\Users\Nick\source\C#\mini_5-6\obj\Debug\net8.0\mini_5-6.AssemblyInfo.cs
+C:\Users\Nick\source\C#\mini_5-6\obj\Debug\net8.0\mini_5-6.csproj.CoreCompileInputs.cache
+C:\Users\Nick\source\C#\mini_5-6\bin\Debug\net8.0\mini_5-6.exe
+C:\Users\Nick\source\C#\mini_5-6\bin\Debug\net8.0\mini_5-6.deps.json
+C:\Users\Nick\source\C#\mini_5-6\bin\Debug\net8.0\mini_5-6.runtimeconfig.json
+C:\Users\Nick\source\C#\mini_5-6\bin\Debug\net8.0\mini_5-6.dll
+C:\Users\Nick\source\C#\mini_5-6\bin\Debug\net8.0\mini_5-6.pdb
+C:\Users\Nick\source\C#\mini_5-6\obj\Debug\net8.0\mini_5-6.dll
+C:\Users\Nick\source\C#\mini_5-6\obj\Debug\net8.0\refint\mini_5-6.dll
+C:\Users\Nick\source\C#\mini_5-6\obj\Debug\net8.0\mini_5-6.pdb
+C:\Users\Nick\source\C#\mini_5-6\obj\Debug\net8.0\mini_5-6.genruntimeconfig.cache
+C:\Users\Nick\source\C#\mini_5-6\obj\Debug\net8.0\ref\mini_5-6.dll

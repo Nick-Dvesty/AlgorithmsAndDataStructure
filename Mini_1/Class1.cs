@@ -10,9 +10,9 @@ namespace Algoritm
     {
         static void Main(string[] args)
         {
-            Mini_1.start();
-            Mini_2.start();
-            Mini_3.start();
+            //Mini_1.start();
+            //Mini_2.start();
+            //Mini_3.start();
             Mini_4.start();
         }
     }
