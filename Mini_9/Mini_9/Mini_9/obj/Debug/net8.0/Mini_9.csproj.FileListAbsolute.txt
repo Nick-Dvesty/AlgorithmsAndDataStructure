@@ -1,0 +1,15 @@
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\bin\Debug\net8.0\Mini_9.exe
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\bin\Debug\net8.0\Mini_9.deps.json
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\bin\Debug\net8.0\Mini_9.runtimeconfig.json
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\bin\Debug\net8.0\Mini_9.dll
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\bin\Debug\net8.0\Mini_9.pdb
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\obj\Debug\net8.0\Mini_9.GeneratedMSBuildEditorConfig.editorconfig
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\obj\Debug\net8.0\Mini_9.AssemblyInfoInputs.cache
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\obj\Debug\net8.0\Mini_9.AssemblyInfo.cs
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\obj\Debug\net8.0\Mini_9.csproj.CoreCompileInputs.cache
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\obj\Debug\net8.0\Mini_9.sourcelink.json
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\obj\Debug\net8.0\Mini_9.dll
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\obj\Debug\net8.0\refint\Mini_9.dll
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\obj\Debug\net8.0\Mini_9.pdb
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\obj\Debug\net8.0\Mini_9.genruntimeconfig.cache
+C:\SysPro\AlgorithmsAndDataStructure\Mini_9\Mini_9\Mini_9\obj\Debug\net8.0\ref\Mini_9.dll
