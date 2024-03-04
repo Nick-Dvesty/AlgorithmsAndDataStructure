@@ -1,0 +1,3 @@
+C:/SysPro/AlgorithmsAndDataStructure/Mini_17/cmake-build-debug/CMakeFiles/Mini_17.dir
+C:/SysPro/AlgorithmsAndDataStructure/Mini_17/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/SysPro/AlgorithmsAndDataStructure/Mini_17/cmake-build-debug/CMakeFiles/rebuild_cache.dir

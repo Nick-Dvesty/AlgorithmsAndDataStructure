@@ -1,0 +1,15 @@
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\bin\Debug\net8.0\Mini_15.exe
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\bin\Debug\net8.0\Mini_15.deps.json
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\bin\Debug\net8.0\Mini_15.runtimeconfig.json
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\bin\Debug\net8.0\Mini_15.dll
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\bin\Debug\net8.0\Mini_15.pdb
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\obj\Debug\net8.0\Mini_15.GeneratedMSBuildEditorConfig.editorconfig
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\obj\Debug\net8.0\Mini_15.AssemblyInfoInputs.cache
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\obj\Debug\net8.0\Mini_15.AssemblyInfo.cs
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\obj\Debug\net8.0\Mini_15.csproj.CoreCompileInputs.cache
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\obj\Debug\net8.0\Mini_15.sourcelink.json
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\obj\Debug\net8.0\Mini_15.dll
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\obj\Debug\net8.0\refint\Mini_15.dll
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\obj\Debug\net8.0\Mini_15.pdb
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\obj\Debug\net8.0\Mini_15.genruntimeconfig.cache
+C:\SysPro\AlgorithmsAndDataStructure\Mini_15\obj\Debug\net8.0\ref\Mini_15.dll
