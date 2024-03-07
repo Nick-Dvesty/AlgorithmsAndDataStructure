@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/SysPro/AlgorithmsAndDataStructure/Mini_14/build",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe -g -std=gnu11 -o CMakeFiles\\Mini_14.dir\\main.c.obj -c C:\\SysPro\\AlgorithmsAndDataStructure\\Mini_14\\main.c",
+  "file": "C:\\SysPro\\AlgorithmsAndDataStructure\\Mini_14\\main.c",
+  "output": "CMakeFiles\\Mini_14.dir\\main.c.obj"
+}
+]

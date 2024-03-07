@@ -1,63 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
-int optimalPosition(int *array, size_t size);
-void golandFlag(int *array, size_t size, int keyIndex);
-int quecksortHoaro(int array[], size_t startIndex, size_t endIndex, int number);
+
+int findOrdinalStat(int array[], int startIndex, int endIndex, int number);
 
 int main() {
-    int test[] = {9,8,7,6,5,4,3,2,1};
-    quecksortHoaro(test, 0, 9);
-}
-
-int optimalPosition(int *array, size_t size){
-    int keyIndex = rand();
-
-}
-
-
-void golandFlag(int *array, size_t size, int keyIndex){
-    int  key = array[keyIndex -1];
-    int bufer;
-    int leftIndex = 0;
-    int rightIndex = size - 1;/*
-    for (int i = 0; i <size;) {
-        if(array[i] < key && i > keyIndex){
-            bufer = array[leftIndex];
-            array[leftIndex] = array[i];
-            array[i] = bufer;
-            leftIndex++;
-        }
-        else if(array[i] > key && i < keyIndex){
-            bufer = array[rightIndex];
-            array[rightIndex] = array[i];
-            array[i] = bufer;
-            rightIndex--;
-        } else i++;
-    }*/
-    int i = 0;
-        while(i < rightIndex){
-            int bufer;
-            if(array[i] < key){
-                bufer = array[leftIndex];
-                    array[leftIndex] = array[i];
-                array[i] = bufer;
-                if(i == leftIndex || array[i] == key)i++;
-                leftIndex++;
-            }
-            if(array[i] > key){
-                bufer = array[rightIndex];
-                array[rightIndex] = array[i];
-                array[i] = bufer;
-                rightIndex--;
-            }
-            if(array[i] == key)i++;
-
-        }
-
+    int size;
+    printf("enter the number of oil towers: ");
+    scanf("%d", &size);
+    int array[size];
+    for (int i; i<size; i++) {
+        printf("Enter coordinate oil %d'th tower: ",i+1);
+        scanf("%d", &array[i]);
+    }
+    if(size % 2 == 0){
+        int t1 = findOrdinalStat(array, 0, size, size/2);
+        int t2 = findOrdinalStat(array, 0, size, size/2 + 1);
+        printf("Position oil pipeline1: %d", (t1 + t2)/2);
+    }
+    else {
+        int t1 = findOrdinalStat(array, 0, size, size/2 + size%2 - 1);
+        printf("Position oil pipeline2: %d", t1);
+    }
 }
 
 
-int quecksortHoaro(int array[], size_t startIndex, size_t endIndex, int number){
+int findOrdinalStat(int array[], int startIndex, int endIndex, int number){
+   // int returnValue = 0;
+   // printf("startIndex: %d, endIndex %2d, number%3d \n", startIndex, endIndex,number);
     if(endIndex -startIndex > 1){
         int left = startIndex;
         int right = endIndex -1;
@@ -83,7 +52,10 @@ int quecksortHoaro(int array[], size_t startIndex, size_t endIndex, int number){
         }
         if(array[number] == key){
             return array[number];
-        }else if(array[number] > key) quecksortHoaro(array,startIndex, left, number);
-        else if(array[number] < key) quecksortHoaro(array,left+1,endIndex);
+        }else if(array[number] < key)
+            return findOrdinalStat(array, startIndex, left, number);
+        else if(array[number] > key)
+            return findOrdinalStat(array,left+1,endIndex, number);
     }
+    return endIndex;
 }
