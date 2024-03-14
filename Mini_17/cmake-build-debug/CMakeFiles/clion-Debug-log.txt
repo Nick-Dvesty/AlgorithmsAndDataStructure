@@ -1,10 +1,19 @@
-C:\Users\Nick\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Nick/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\SysPro\AlgorithmsAndDataStructure\Mini_17 -B C:\SysPro\AlgorithmsAndDataStructure\Mini_17\cmake-build-debug
--- The C compiler identification is GNU 13.1.0
+/app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_17 -B /home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_17/cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- The C compiler identification is GNU 13.2.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Users/Nick/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe - skipped
+-- Check for working C compiler: /usr/bin/cc - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Configuring done (1.0s)
+-- Configuring done (0.3s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/SysPro/AlgorithmsAndDataStructure/Mini_17/cmake-build-debug
+-- Build files have been written to: /home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_17/cmake-build-debug

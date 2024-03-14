@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Mini_12.dir/main.c.o -o Mini_12 
