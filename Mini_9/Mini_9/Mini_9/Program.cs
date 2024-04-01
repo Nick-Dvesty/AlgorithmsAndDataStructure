@@ -11,7 +11,7 @@ internal class Program{
         double minTime = double.MaxValue;
         double maxTime = double.MinValue;
         
-        for (int size = 90; size < 1000; size++)
+        for (int size = 0; size < 1000; size++)
         {
             alltime = 0;
             minTime = Double.MaxValue;
@@ -21,7 +21,7 @@ internal class Program{
                 int[,] mtx1 = generateMrx(size);
                 int[,] mtx2 = generateMrx(size);
                 startTime = Environment.TickCount;
-                multiply.multyplyShtrasen(mtx1, mtx2);
+                multiply.multiplyClassic(mtx1, mtx2);
                 endTime = Environment.TickCount; 
                 time = (endTime - startTime) / 1000f;
                 minTime = time < minTime ? time : minTime;
@@ -126,7 +126,7 @@ class multiply{
     }
     static public int[,] multyplyShtrasen(int[,] mrx1, int[,] mrx2)
     {
-            if ((mrx1.Length > 64) && (mrx2.Length > 64))
+            if ((mrx1.Length > 4) && (mrx2.Length > 4))
             {
 
                 int hight1 = mrx1.GetLength(0);

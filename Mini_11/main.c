@@ -1,9 +1,17 @@
 #include <stdio.h>
+void sortColors(int* nums, int numsSize);
 
 int main() {
-    int nums[] = {0,1,2,0,0,1,0,2,0,2,1,0,2,1,2,1,1,0,0};
+    int test[] = {2,0,1};
+    sortColors(test, 3);
+    for (int j = 0; j < 3; ++j) {
+        printf("%d ", test[j]);
+    }
+}
+
+void sortColors(int* nums, int numsSize){
     int left = 0;
-    int right = 18;
+    int right = numsSize;
     int i = 0;
     while(i < right){
         int bufer;
@@ -14,16 +22,12 @@ int main() {
             if(i == left || nums[i] == 1)i++;
             left++;
         }
-        if(nums[i] == 2){
-            bufer = nums[right];
-            nums[right] = nums[i];
+        else if(nums[i] == 2){
+            bufer = nums[right - 1];
+            nums[right - 1] = nums[i];
             nums[i] = bufer;
             right--;
-        }
-        if(nums[i] == 1)i++;
+        } else if(nums[i] == 1)i++;
 
-    }
-    for (int j = 0; j < 19; ++j) {
-        printf("%d ", nums[j]);
     }
 }

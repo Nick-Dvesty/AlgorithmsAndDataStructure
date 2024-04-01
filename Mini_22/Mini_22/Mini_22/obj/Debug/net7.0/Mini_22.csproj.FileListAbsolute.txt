@@ -1,0 +1,14 @@
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/bin/Debug/net7.0/Mini_22
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/bin/Debug/net7.0/Mini_22.deps.json
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/bin/Debug/net7.0/Mini_22.runtimeconfig.json
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/bin/Debug/net7.0/Mini_22.dll
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/bin/Debug/net7.0/Mini_22.pdb
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/obj/Debug/net7.0/Mini_22.GeneratedMSBuildEditorConfig.editorconfig
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/obj/Debug/net7.0/Mini_22.AssemblyInfoInputs.cache
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/obj/Debug/net7.0/Mini_22.AssemblyInfo.cs
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/obj/Debug/net7.0/Mini_22.csproj.CoreCompileInputs.cache
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/obj/Debug/net7.0/Mini_22.dll
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/obj/Debug/net7.0/refint/Mini_22.dll
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/obj/Debug/net7.0/Mini_22.pdb
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/obj/Debug/net7.0/Mini_22.genruntimeconfig.cache
+/home/modnick/ProgramProjects/RiderProjects/Mini_22/Mini_22/Mini_22/obj/Debug/net7.0/ref/Mini_22.dll

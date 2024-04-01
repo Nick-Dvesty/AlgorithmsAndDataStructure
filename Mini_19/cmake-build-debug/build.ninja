@@ -55,14 +55,8 @@ build CMakeFiles/Mini_19.dir/main.c.o: C_COMPILER__Mini_19_unscanned_Debug /home
   OBJECT_DIR = CMakeFiles/Mini_19.dir
   OBJECT_FILE_DIR = CMakeFiles/Mini_19.dir
 
-build CMakeFiles/Mini_19.dir/DinamiycArra.c.o: C_COMPILER__Mini_19_unscanned_Debug /home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_19/DinamiycArra.c || cmake_object_order_depends_target_Mini_19
-  DEP_FILE = CMakeFiles/Mini_19.dir/DinamiycArra.c.o.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/Mini_19.dir
-  OBJECT_FILE_DIR = CMakeFiles/Mini_19.dir
-
-build CMakeFiles/Mini_19.dir/test'.c.o: C_COMPILER__Mini_19_unscanned_Debug /home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_19/test'.c || cmake_object_order_depends_target_Mini_19
-  DEP_FILE = "CMakeFiles/Mini_19.dir/test'.c.o.d"
+build CMakeFiles/Mini_19.dir/BinaryHeap.c.o: C_COMPILER__Mini_19_unscanned_Debug /home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_19/BinaryHeap.c || cmake_object_order_depends_target_Mini_19
+  DEP_FILE = CMakeFiles/Mini_19.dir/BinaryHeap.c.o.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Mini_19.dir
   OBJECT_FILE_DIR = CMakeFiles/Mini_19.dir
@@ -75,7 +69,7 @@ build CMakeFiles/Mini_19.dir/test'.c.o: C_COMPILER__Mini_19_unscanned_Debug /hom
 #############################################
 # Link the executable Mini_19
 
-build Mini_19: C_EXECUTABLE_LINKER__Mini_19_Debug CMakeFiles/Mini_19.dir/main.c.o CMakeFiles/Mini_19.dir/DinamiycArra.c.o CMakeFiles/Mini_19.dir/test'.c.o
+build Mini_19: C_EXECUTABLE_LINKER__Mini_19_Debug CMakeFiles/Mini_19.dir/main.c.o CMakeFiles/Mini_19.dir/BinaryHeap.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Mini_19.dir
   POST_BUILD = :
