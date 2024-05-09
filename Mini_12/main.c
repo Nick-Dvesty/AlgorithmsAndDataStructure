@@ -1,66 +1,80 @@
 #include <stdio.h>
 #include <stdlib.h>
-void quecksortHoaro(int *array,size_t startIndex, size_t size );
-void quecksortLomuto(int array[], size_t startIndex, size_t endIndex);
+void quecksortHoaro(int *nums, size_t startIndex, size_t size );
+void quecksortLomuto(int nums[], size_t startIndex, size_t endIndex);
 int main() {
-int test[9] = {23,5,77,68,35,46,37,2,12};
-    quecksortLomuto(test,0,9);
+int test[] = {2,2,2,2,2,2,2,2,2,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+               2,2,2,2,1,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+               2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+               2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,};
+int test2[] = {5,1,1,2,0,0};
+quecksortLomuto(test2,0,6);
 
 }
-void quecksortHoaro(int array[], size_t startIndex, size_t endIndex){
+
+int* sortArray(int* nums, int numsSize, int* returnSize) {
+    quecksortHoaro(nums, 0, numsSize);
+    *returnSize = numsSize;
+    return nums;
+}
+void quecksortHoaro(int *nums, size_t startIndex, size_t endIndex){
     if(endIndex -startIndex > 1){
-        int left = startIndex;
-        int right = endIndex -1;
-        int index = startIndex + rand()%(endIndex - startIndex);
-        int key = array[index];
-        int i = startIndex;
+        size_t left = startIndex;
+        size_t right = endIndex -1;
+        size_t same = endIndex - startIndex;
+        size_t index = startIndex + rand()%(endIndex - startIndex);
+        int key = nums[index];
+        size_t i = startIndex;
         while(i <= right){
             int bufer;
-            if(array[i] < key){
-                bufer = array[left];
-                array[left] = array[i];
-                array[i] = bufer;
+            if(nums[i] < key){
+                bufer = nums[left];
+                nums[left] = nums[i];
+                nums[i] = bufer;
                 if(i == left)i++;
                 left++;
+                same--;
             }
-            if(array[i] > key){
-                bufer = array[right];
-                array[right] = array[i];
-                array[i] = bufer;
+            if(nums[i] > key){
+                bufer = nums[right];
+                nums[right] = nums[i];
+                nums[i] = bufer;
                 right--;
+                same--;
             }
-            if(array[i] == key)i++;
+            if(nums[i] == key){
+                i++;
+            }
         }
-        quecksortHoaro(array,startIndex, left);
-        quecksortHoaro(array,left+1,endIndex);
+        quecksortHoaro(nums, startIndex, left);
+        quecksortHoaro(nums, left + same, endIndex);
     }
 }
 
-void quecksortLomuto(int array[], size_t startIndex, size_t endIndex){
+void quecksortLomuto(int *nums, size_t startIndex, size_t endIndex){
     if(endIndex > startIndex + 1){
-        int i = startIndex + 1;
-        int j = startIndex + 1;
-        int index = startIndex + rand()%(endIndex - startIndex);
-        int key = array[index];
-        array[index] = array[startIndex];
-        array[startIndex]= key;
+        size_t i = startIndex + 1;
+        size_t j = startIndex + 1;
+        size_t index = startIndex + rand()%(endIndex - startIndex);
+        int key = nums[index];
+        nums[index] = nums[startIndex];
+        nums[startIndex]= key;
         while(j < endIndex){
-            int bufer;
-            if(array[j] <= key){
-                bufer = array[i];
-                array[i] = array[j];
-                array[j] = bufer;
+            int bufer = 0;
+            if(nums[j] <= key){
+                bufer = nums[i];
+                nums[i] = nums[j];
+                nums[j] = bufer;
                 i++;
                 j++;
-            }
-            if(array[j] > key){
+            } else if(nums[j] > key){
                 j++;
             }
         }
-        array[startIndex] = array[i - 1];
-        array[i -1] = key;
+        nums[startIndex] = nums[i - 1];
+        nums[i - 1] = key;
 
-       quecksortLomuto(array,startIndex, i - 1);
-       quecksortLomuto(array,i,endIndex);
+       quecksortLomuto(nums, startIndex, i - 1);
+       quecksortLomuto(nums, i, endIndex);
     }
 }

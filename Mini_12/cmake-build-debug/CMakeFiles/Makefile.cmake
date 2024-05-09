@@ -83,7 +83,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake"
   "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake"
   "/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/ProcessorCount.cmake"
-  "/home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_12/CMakeLists.txt"
+  "/home/modnick/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/Mini_12/CMakeLists.txt"
   "CMakeFiles/3.27.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.0/CMakeSystem.cmake"
   )

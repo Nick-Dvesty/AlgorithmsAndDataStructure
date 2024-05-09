@@ -41,7 +41,7 @@ void shiftUp(BinaryHeap* heap, int index){
     while (index != 0){
         if(heap->array[index].prior > heap->array[(index - 1)/ 2].prior){
             swap(heap, index, (index - 1)/ 2);
-            index = (index - 1)/ 2;
+            index = (index - 1)/ 2;>
         } else{
             break;
         }

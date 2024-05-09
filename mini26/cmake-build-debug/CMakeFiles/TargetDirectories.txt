@@ -1,0 +1,3 @@
+/home/modnick/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini26/cmake-build-debug/CMakeFiles/mini26.dir
+/home/modnick/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini26/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/modnick/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini26/cmake-build-debug/CMakeFiles/rebuild_cache.dir

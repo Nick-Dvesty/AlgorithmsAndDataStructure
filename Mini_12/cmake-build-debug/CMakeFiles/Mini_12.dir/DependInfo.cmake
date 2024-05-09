@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_12/main.c" "CMakeFiles/Mini_12.dir/main.c.o" "gcc" "CMakeFiles/Mini_12.dir/main.c.o.d"
+  "/home/modnick/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/Mini_12/main.c" "CMakeFiles/Mini_12.dir/main.c.o" "gcc" "CMakeFiles/Mini_12.dir/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

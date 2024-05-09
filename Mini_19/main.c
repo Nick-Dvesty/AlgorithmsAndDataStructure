@@ -43,6 +43,33 @@ int main() {
 
 struct ListNode* mergeKLists(struct ListNode** lists, int listsSize) {
     BinaryHeap* heap = heapCreate();
+    struct ListNode* answer = NULL;
+    do{
+        for (int i = 0; i < listsSize; i++) {
+            if(lists[i] != NULL){
+                heapInsert(heap, (lists[i]->val), lists[i]->val);
+                lists[i] = lists[i]->next;
+            }
+        }
+        if(heap->index != 0){
+            struct ListNode* answer2 = malloc(sizeof (struct  ListNode));
+            answer2->val = heapExtractMax(heap);
+            answer2->next = answer;
+            answer = answer2;
+        }
+    }while(heap->index != 0);
+
+    return answer;
+}
+
+
+
+
+
+
+
+struct ListNode* _mergeKLists(struct ListNode** lists, int listsSize) {
+    BinaryHeap* heap = heapCreate();
     for (int i = 0; i < listsSize; i++) {
         struct ListNode* bufer = lists[i];
         while (bufer != NULL){
