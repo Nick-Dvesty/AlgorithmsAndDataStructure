@@ -1,0 +1,15 @@
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/bin/Debug/net8.0/mini_31
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/bin/Debug/net8.0/mini_31.deps.json
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/bin/Debug/net8.0/mini_31.runtimeconfig.json
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/bin/Debug/net8.0/mini_31.dll
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/bin/Debug/net8.0/mini_31.pdb
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/obj/Debug/net8.0/mini_31.GeneratedMSBuildEditorConfig.editorconfig
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/obj/Debug/net8.0/mini_31.AssemblyInfoInputs.cache
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/obj/Debug/net8.0/mini_31.AssemblyInfo.cs
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/obj/Debug/net8.0/mini_31.csproj.CoreCompileInputs.cache
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/obj/Debug/net8.0/mini_31.sourcelink.json
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/obj/Debug/net8.0/mini_31.dll
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/obj/Debug/net8.0/refint/mini_31.dll
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/obj/Debug/net8.0/mini_31.pdb
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/obj/Debug/net8.0/mini_31.genruntimeconfig.cache
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini_31/obj/Debug/net8.0/ref/mini_31.dll

@@ -1,4 +1,6 @@
-﻿public class Mini_1
+﻿using System.Collections;
+
+public class Mini_1
 {
     public static void start()
     {
