@@ -1,0 +1,3 @@
+/home/modnick/Documents/ProgramProjects/CLionProjects/COtherProject/Mini_36/cmake-build-debug/CMakeFiles/Mini_36.dir
+/home/modnick/Documents/ProgramProjects/CLionProjects/COtherProject/Mini_36/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/modnick/Documents/ProgramProjects/CLionProjects/COtherProject/Mini_36/cmake-build-debug/CMakeFiles/rebuild_cache.dir
