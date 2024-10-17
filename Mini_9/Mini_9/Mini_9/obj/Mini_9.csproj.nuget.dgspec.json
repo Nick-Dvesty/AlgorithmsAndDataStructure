@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/Mini_9.csproj": {}
+    "/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/Mini_9.csproj": {}
   },
   "projects": {
-    "/home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/Mini_9.csproj": {
+    "/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/Mini_9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/Mini_9.csproj",
+        "projectUniqueName": "/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/Mini_9.csproj",
         "projectName": "Mini_9",
-        "projectPath": "/home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/Mini_9.csproj",
+        "projectPath": "/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/Mini_9.csproj",
         "packagesPath": "/home/modnick/.nuget/packages/",
-        "outputPath": "/home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/obj/",
+        "outputPath": "/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/modnick/.nuget/NuGet/NuGet.Config"
@@ -48,12 +48,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.6, 8.0.6]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/var/run/host/usr/share/dotnet/sdk/7.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/var/run/host/usr/share/dotnet/sdk/8.0.106/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

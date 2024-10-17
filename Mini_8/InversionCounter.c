@@ -1,12 +1,9 @@
 #include "InversionCounter.h"
 void merge(int *quantitInversion,int *array, int startLeft, size_t blockLeft,int startRight, size_t blockRight){
-   // if(startLeft + blockLeft < startRight + blockRight){
-        int *buferArray = (int*)malloc(blockLeft + blockRight);
-        size_t left = 0;
-        size_t right = 0;
+        int *buferArray = (int*)malloc((blockLeft + blockRight) * sizeof(int));
+        size_t left = 0, right = 0;
         for(size_t i = 0; (left < blockLeft) || (right < blockRight);i++){
-            //printf("check: %d, %2d \n",array[startLeft + left],array[ startRight + right]);
-            if((array[startLeft + left] <= array[ startRight + right] && left < blockLeft) || right >= blockRight){
+            if(right >= blockRight || (array[startLeft + left] <= array[startRight + right] && left < blockLeft)){
                 buferArray[i] = array[startLeft + left];
                 left++;
             }
@@ -22,7 +19,6 @@ void merge(int *quantitInversion,int *array, int startLeft, size_t blockLeft,int
         free(buferArray);
 }
 void merge_sort(int *quantitInversion, int* array,int startLeft, size_t blockLeft){
-    //printf("start left: %d, size: %2zu \n", startLeft,blockLeft);
     if(blockLeft > 1){
         merge_sort(quantitInversion, array, startLeft, blockLeft/2);
         merge_sort(quantitInversion, array, startLeft + blockLeft /2, blockLeft - blockLeft/2);

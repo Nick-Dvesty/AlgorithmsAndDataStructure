@@ -58,4 +58,5 @@ int findOrdinalStat(int array[], int startIndex, int endIndex, int number){
             return findOrdinalStat(array,left+1,endIndex, number);
     }
     return endIndex;
+
 }

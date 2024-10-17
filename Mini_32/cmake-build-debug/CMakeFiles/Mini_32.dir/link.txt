@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Mini_32.dir/main.cpp.o CMakeFiles/Mini_32.dir/Solution.cpp.o -o Mini_32 

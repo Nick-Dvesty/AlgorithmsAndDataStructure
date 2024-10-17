@@ -15,12 +15,12 @@ public class HeshBlum<T>
           CountRequests = countRequests;
           ProbabilityError = probabilityError;
           heshConvert = convert;
-          int bitArraySize = (int)((countRequests * Math.Log(probabilityError, 0.5))/ Math.Log(2, double.E));
-          _bitArray = new BitArray(bitArraySize);
-          keyHesh = new int[4];
+          int bitArraySize = (int)Math.Ceiling(Math.Log(probabilityError, double.E)/ Math.Log(0.5f, double.E));
+          keyHesh = new int[(int)Math.Ceiling(Math.Log(2, double.E) * bitArraySize)];
+          _bitArray = new BitArray((bitArraySize *countRequests));
           Random r = new Random();
           for (int i = 0; i < keyHesh.Length; i++) {
-               keyHesh[i] = r.Next(0, _bitArray.Length);
+               keyHesh[i] = r.Next(1, _bitArray.Length);
           }
      }
 

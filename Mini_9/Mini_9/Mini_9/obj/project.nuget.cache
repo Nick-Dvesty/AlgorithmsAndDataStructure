@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xKMoMWjzuMiCMXpModSRHwMuD8drrtkYaxnCISXSotcZROkFFw3t44AcDkzDyhFzLeSnslJ10AyHL0bIMoYrDQ==",
+  "dgSpecHash": "htgrrZMkOMDdH3LXFHFFo2t4/kQd24UFSltNAUdt6JnmPkoGy4qoOxQ70QsnpxkhyG0v+SSkJ3PJrTBY5623JA==",
   "success": true,
-  "projectFilePath": "/home/modnick/CLionProject/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/Mini_9.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/Mini_9/Mini_9/Mini_9/Mini_9.csproj",
+  "expectedPackageFiles": [
+    "/home/modnick/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
+  ],
   "logs": []
 }

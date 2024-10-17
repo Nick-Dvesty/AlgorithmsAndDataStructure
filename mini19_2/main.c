@@ -2,7 +2,7 @@
 #include <malloc.h>
 
 typedef struct{
-    int value;
+    struct ListNode * value;
     int prior;
 }IntPrior;
 
@@ -15,9 +15,9 @@ typedef struct{
 BinaryHeap* heapCreate();
 BinaryHeap* heapDelete();
 
-void heapInsert(BinaryHeap* heap, int prior, int value);
+void heapInsert(BinaryHeap* heap, int prior, struct ListNode* value);
 int heapPeek_max(BinaryHeap* heap);
-int heapExtractMin(BinaryHeap* heap);
+struct ListNode* heapExtractMin(BinaryHeap* heap);
 
 void swap(BinaryHeap* heap, int index1, int index2);
 void shiftDown(BinaryHeap* heap, int index);
@@ -37,16 +37,16 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize) {
     BinaryHeap* heap = heapCreate();
     struct ListNode* pNode = NULL;
     struct ListNode* ret = NULL;
-    while (1){
-        for (int i = 0; i < listsSize; i++) {
-            if (lists[i] != NULL){
-                heapInsert(heap, (lists[i]->val), lists[i]->val);
-                lists[i] = lists[i]->next;
-            }
+    for (int i = 0; i < listsSize; i++) {
+        if (lists[i] != NULL){
+            heapInsert(heap, (lists[i]->val), lists[i]);
+            lists[i] = lists[i]->next;
         }
-        if (heap->index == 0 ) break;
-        struct ListNode* newNode = malloc(sizeof (struct  ListNode));
-        newNode->val = heapExtractMin(heap);
+    }
+    while (heap->index !=    0){
+        struct ListNode* newNode;
+        newNode = heapExtractMin(heap);
+        if (newNode->next != NULL) heapInsert(heap, newNode->next->val, newNode->next);
         newNode->next = NULL;
         if (pNode != NULL) pNode->next = newNode;
         else {
@@ -67,7 +67,7 @@ BinaryHeap* heapCreate(){
     heap->index = 0;
     return  heap;
 }
-void heapInsert(BinaryHeap* heap, int prior, int value){
+void heapInsert(BinaryHeap* heap, int prior, struct ListNode * value){
     if(heap->size == heap->index) increaseArray(heap);
     IntPrior newElem;
     newElem.value = value;
@@ -76,8 +76,8 @@ void heapInsert(BinaryHeap* heap, int prior, int value){
     shiftUp(heap, heap->index);
     heap->index++;
 }
-int heapExtractMin(BinaryHeap* heap){
-    int answer = heap->array[0].value;
+struct ListNode* heapExtractMin(BinaryHeap* heap){
+    struct ListNode* answer = heap->array[0].value;
     heap->index--;
     if (heap->size > 1) {
         swap(heap, 0, heap->index);

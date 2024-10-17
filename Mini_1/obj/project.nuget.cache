@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dZEZOCiL8mwtpLEByPxGs2KVP6xjsu7pTg0JhDmlHz0XES04ouPMyhsWarx4yiD3w8mhKTPANX8yVuqlGpH9sA==",
+  "dgSpecHash": "BQ4squsrdFeRFqxNnNACgjtCT1snjAG1W84dZPj/ZQGklEQY/ksqmyBW/fX0nBYVMs1AOkdeyYG9vVYPcwohcw==",
   "success": true,
   "projectFilePath": "/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/Mini_1/Mini_1.csproj",
   "expectedPackageFiles": [
     "/home/modnick/.nuget/packages/libgit2sharp/0.29.0/libgit2sharp.0.29.0.nupkg.sha512",
     "/home/modnick/.nuget/packages/libgit2sharp.nativebinaries/2.0.321/libgit2sharp.nativebinaries.2.0.321.nupkg.sha512",
-    "/home/modnick/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512"
+    "/home/modnick/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
   ],
   "logs": []
 }

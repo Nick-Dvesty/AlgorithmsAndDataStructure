@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84756782-8116-4bba-ba3c-59fa46472af1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Class1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini_2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mini_2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/LibGit2Sharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/LibGit2Sharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Mini_1.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Mini_1.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Mini_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Mini_1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Mini_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Mini_1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-arm/native/libgit2-a2bde63.so" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-arm/native/libgit2-a2bde63.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-arm64/native/libgit2-a2bde63.so" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-arm64/native/libgit2-a2bde63.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-musl-arm/native/libgit2-a2bde63.so" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-musl-arm/native/libgit2-a2bde63.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-musl-arm64/native/libgit2-a2bde63.so" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-musl-arm64/native/libgit2-a2bde63.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libgit2-a2bde63.so" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libgit2-a2bde63.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-x64/native/libgit2-a2bde63.so" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/linux-x64/native/libgit2-a2bde63.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/osx-arm64/native/libgit2-a2bde63.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/osx-arm64/native/libgit2-a2bde63.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/osx-x64/native/libgit2-a2bde63.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/osx-x64/native/libgit2-a2bde63.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win-arm64/native/git2-a2bde63.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win-arm64/native/git2-a2bde63.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win-x64/native/git2-a2bde63.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win-x64/native/git2-a2bde63.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win-x86/native/git2-a2bde63.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win-x86/native/git2-a2bde63.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Mini_1.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/Mini_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/Mini_1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/Mini_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/Mini_1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Mini_1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Mini_1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_18/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini_18/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/.cmake/api/v1/reply/cache-v2-332ac55b063ac2c1e80b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0ac55dc04f44717c4f80.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-cb365c859a614001b7d1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-19T01-18-15-0945.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/3.27.0/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/3.27.0/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/Mini_19.dir/BinaryHeap.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/Mini_19.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini_19/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_8/.idea/Mini_8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini_8/.idea/Mini_8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_8/InversionCounter.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini_8/InversionCounter.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mini_8/Program.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini_8/Program.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/HeshBlum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/HeshBlum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/bin/Debug/net7.0/mini28" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/bin/Debug/net7.0/mini28" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/bin/Debug/net7.0/mini28.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/bin/Debug/net7.0/mini28.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/bin/Debug/net7.0/mini28.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/bin/Debug/net7.0/mini28.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/mini28.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/ref/mini28.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/ref/mini28.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/refint/mini28.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/Debug/net7.0/refint/mini28.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/mini28.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/mini28.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mini28/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../mini28/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2huXE8kUpw2hyRgkC3C171THxMM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/Mini_14",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84756782-8116-4bba-ba3c-59fa46472af1" name="Changes" comment="" />
+      <created>1718444822094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718444822094</updated>
+      <workItem from="1718444823138" duration="615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

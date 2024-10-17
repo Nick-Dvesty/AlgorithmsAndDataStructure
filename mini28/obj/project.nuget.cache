@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HF9Y7nOMuwF3YKpMB9Zc3K4XwXkXo2fYRXxr7Vk5akOErW3kUxb9fEjRj24MjpQ0xw4dJJ266wOiH4PJC0C5pw==",
+  "dgSpecHash": "cNEuTgUoxFy2wOHCHTTRfiVk9rRBP+iv226Sgd48FAmbDfFEsXUugrVGbEo+G2Vf7Qjxr40tamJAy209uPhTog==",
   "success": true,
   "projectFilePath": "/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini28/mini28.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/modnick/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/modnick/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/modnick/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

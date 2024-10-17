@@ -12,3 +12,4 @@
 /home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini28/obj/Debug/net7.0/mini28.pdb
 /home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini28/obj/Debug/net7.0/mini28.genruntimeconfig.cache
 /home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini28/obj/Debug/net7.0/ref/mini28.dll
+/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/mini28/obj/Debug/net7.0/mini28.sourcelink.json
