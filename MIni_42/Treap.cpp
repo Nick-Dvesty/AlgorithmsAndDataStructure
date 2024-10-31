@@ -8,25 +8,13 @@
 
 template<typename T, bool (*K)(T, T)>
 Treap<T, K>::Treap(T *key) : key(key), parent(nullptr), leftChild(nullptr), rightChild(nullptr) {
+    c = 1;
     prior = rand() % 1000;
 }
 
 template<typename T, bool (*K)(T, T)>
-Treap<T, K>::Treap(Treap<T, K> &&treap) {
-    this->key = treap.key;
-    this->parent = treap.parent;
-    this->rightChild = treap.rightChild;
-    this->leftChild = treap.leftChild;
-    this->prior = treap.prior;
-    treap.prior = 0;
-    treap.parent = nullptr;
-    treap.leftChild = nullptr;
-    treap.rightChild = nullptr;
-}
-
-template<typename T, bool (*K)(T, T)>
 Treap<T, K>::Treap(std::vector<T>* keys) {
-    std::sort(keys->begin(), keys->end(), compareT);
+    //std::sort(keys->begin(), keys->end(), compareT);
     std::vector<Treap<T, K>*> elements;
     for (int i = 0; i < keys->size(); ++i) {
         auto teat = new Treap<T,K>(&(*keys)[i]);
@@ -38,7 +26,7 @@ Treap<T, K>::Treap(std::vector<T>* keys) {
         Treap<T,K>* nowParent = elements[i - 1];
         bool is = false;
         do {
-            if (nowElement->prior > nowParent->prior) {
+            if (nowElement->prior > nowParent->prior && !is) {
                 if (pastParent != nullptr){
                     nowElement->leftChild = pastParent;
                     nowElement->leftChild->parent = nowElement;
@@ -46,8 +34,11 @@ Treap<T, K>::Treap(std::vector<T>* keys) {
                 nowParent->rightChild = nowElement;
                 nowElement->parent = nowParent;
                 is = true;
-                break;
             }
+            if (!is)
+                nowElement->c+=(nowParent->c - nowElement->c + 1);
+            else
+                nowParent->c++;
             pastParent = nowParent;
             nowParent = nowParent->parent;
         } while (nowParent != nullptr);
@@ -65,6 +56,7 @@ Treap<T, K>::Treap(std::vector<T>* keys) {
     leftChild = nowEl->leftChild;
     rightChild = nowEl->rightChild;
     prior = nowEl->prior;
+    c = nowEl->c;
 }
 
 template<typename T, bool (*K)(T, T)>
@@ -88,25 +80,35 @@ T Treap<T, K>::getKey() {
 }
 
 template<typename T, bool (*K)(T, T)>
-pairTreaps<T, K> Treap<T, K>::split(Treap<T, K>* rootPart, T key) {
+pairTreaps<T, K> Treap<T, K>::splitBySize(Treap<T, K>* rootPart, unsigned int size) {
     if (rootPart == nullptr) return pairTreaps<T,K>(nullptr, nullptr);
-    if(K(key, *rootPart->key)) {
-        auto ans = split(rootPart->rightChild, key);
-        Treap<T, K>* RL = ans.first, *RR = ans.second;
-        rootPart->rightChild = RL;
-        rootPart->parent = nullptr;
-        if (RL != nullptr) RL->parent = rootPart;
-        if (RR != nullptr) RR->parent = nullptr;
-        return pairTreaps<T, K>(rootPart, RR);
-    } else {
-        auto ans = split(rootPart->leftChild, key);
+    unsigned int leftC = rootPart->leftChild != nullptr ? rootPart->leftChild->c : 0;
+    if (size <= leftC) {
+        auto ans = splitBySize(rootPart->leftChild, size);
         Treap<T, K>* LL = ans.first, *LR = ans.second;
         rootPart->leftChild = LR;
         rootPart->parent = nullptr;
         if (LL != nullptr) LL->parent = nullptr;
         if (LR != nullptr) LR->parent = rootPart;
+        updateC(*rootPart);
         return pairTreaps<T, K>(LL, rootPart);
+    } else {
+        auto ans = splitBySize(rootPart->rightChild, size - leftC - 1);
+        Treap<T, K>* RL = ans.first, *RR = ans.second;
+        rootPart->rightChild = RL;
+        rootPart->parent = nullptr;
+        if (RL != nullptr) RL->parent = rootPart;
+        if (RR != nullptr) RR->parent = nullptr;
+        updateC(*rootPart);
+        return pairTreaps<T, K>(rootPart, RR);
     }
+}
+
+template<typename T, bool (*K)(T, T)>
+void Treap<T, K>::updateC(Treap<T, K> &rootPart) {
+    unsigned int left = rootPart.leftChild != nullptr ? rootPart.leftChild->c : 0;
+    unsigned int right = rootPart.rightChild != nullptr ? rootPart.rightChild->c : 0;
+    rootPart.c = left + right + 1;
 }
 
 template<typename T, bool (*K)(T, T)>
@@ -130,26 +132,29 @@ bool Treap<T,K>::compareT(T left, T right){
 }
 
 template<typename T, bool (*K)(T, T)>
-void Treap<T, K>::insert(T& newElem) {
+void Treap<T, K>::insert(T& newElem, unsigned int pos) {
     auto newNode = new Treap(&newElem);
-    pairTreaps<T,K> r = split(this, newElem);
+    pairTreaps<T,K> r = splitBySize(this, pos - 1);
     auto ans = merge(merge(r.first, newNode), r.second);
     this->key = ans->key;
     this->parent = ans->parent;
     this->rightChild = ans->rightChild;
     this->leftChild = ans->leftChild;
     this->prior = ans->prior;
+    this->c = ans->c;
 }
 
 template<typename T, bool (*K)(T, T)>
-void Treap<T, K>::remove(T delElem) {
-    pairTreaps<T,K> r = split(this, delElem);
-    auto ans = merge(r.first, r.second->getRightChild());
+void Treap<T, K>::erase(unsigned int pos) {
+    pairTreaps<T,K> r = splitBySize(this, pos -1);
+    pairTreaps<T,K> r2 = splitBySize(r.second, 1);
+    auto ans = merge(r.first, r2.second);
     this->key = ans->key;
     this->parent = ans->parent;
     this->rightChild = ans->rightChild;
     this->leftChild = ans->leftChild;
     this->prior = ans->prior;
+    this->c = ans->c;
 }
 
 

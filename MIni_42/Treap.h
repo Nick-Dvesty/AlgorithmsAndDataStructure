@@ -18,21 +18,22 @@ class Treap {
 public:
                             Treap(T* key);
                             Treap(std::vector<T>* keys);
-                            Treap(Treap&& treap);
     Treap<T, K>*            getParent();
     Treap<T, K>*            getLeftChild();
     Treap<T, K>*            getRightChild();
     T                       getKey();
-    void                    insert(T& newElem);
-    void                    remove(T delElem);
+    void                    insert(T& newElem, unsigned int pos);
+    void                    erase(unsigned int pos);
     static Treap<T, K>*     merge(Treap<T, K>* left, Treap<T, K>* right);
-    static pairTreaps<T, K> split(Treap<T, K>* rootPart, T key);
+    static pairTreaps<T, K> splitBySize(Treap<T, K>* rootPart, unsigned int size);
+    static void             updateC(Treap<T, K>& rootPart);
     static bool             compareT(T left, T right);
 private:
     T*                      key;
     Treap<T, K>*            parent;
     Treap<T, K>*            leftChild;
     Treap<T, K>*            rightChild;
+    unsigned int            c;
     unsigned int            prior;
 
 };

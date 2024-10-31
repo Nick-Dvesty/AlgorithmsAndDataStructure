@@ -8,15 +8,14 @@ bool compare(int left, int right) {
 int main() {
     std::cout << "Hello, World!" << std::endl;
     auto t = new std::vector<int>();
-    t->push_back(1);
-    t->push_back(2);
-    t->push_back(3);
-    t->push_back(4);
+    t->push_back(5);//
+    t->push_back(24);//
+    t->push_back(42);//
+    t->push_back(13);//
+    t->push_back(99);//
+    t->push_back(2);//
+    t->push_back(17);//
     Treap<int, compare> treap(t);
-    auto t2 = Treap<int, compare>::split(&treap, 2);
-    auto t3 = Treap<int, compare>::merge(t2.first, t2.second);
-    auto t5 = new int(23);
-    t3->insert(*t5);
-    t3->remove(23);
+    auto t1 = Treap<int, compare>::splitBySize(&treap,2);
     return 0;
 }
