@@ -9,25 +9,25 @@ using string = std::string;
 class Solution {
 public:
     bool isMatch(string s, string p) {
-        std::vector<string> qwe;
+        std::vector<string> regularChars;
         for (char &i: p) {
-            if (i == '*') qwe.back() = qwe.back() + i;
-            else qwe.push_back(string("") + i);
+            if (i == '*') regularChars.back() = regularChars.back() + i;
+            else regularChars.push_back(string("") + i);
         }
-        if (qwe.size() == p.size() && qwe.size() != s.size()) return false;
-        if (qwe.front().size() != 2 && qwe.front() != "." && qwe.front()[0] != s[0]) return false;
-        bool flag = qwe[0][0] == s[0];
+        if (regularChars.size() == p.size() && regularChars.size() != s.size()) return false;
+        if (regularChars.front().size() != 2 && regularChars.front() != "." && regularChars.front()[0] != s[0]) return false;
+        bool flag = regularChars[0][0] == s[0];
 
-        bool table[qwe.size()][s.size()];
+        bool table[regularChars.size()][s.size()];
 
-        for (int i = 0; i < qwe.size(); ++i) {
+        for (int i = 0; i < regularChars.size(); ++i) {
             for (int j = 0; j < s.size(); ++j) {
                 table[0][0] = false;
             }
         }
 
         char target;
-        string pattern = qwe.front();
+        string pattern = regularChars.front();
         bool control = (pattern.size() == 2 and pattern[0] != '.' && pattern[0] != s[0]);
 
         for (int i = 1; i < s.size(); ++i) {
@@ -45,13 +45,13 @@ public:
         }
 
         target = s[0];
-        bool count_point = qwe[0] == ".";
+        bool isPoint = regularChars[0] == ".";
 
-        for (int i = 1; i < qwe.size(); ++i) {
-            pattern = qwe[i];
+        for (int i = 1; i < regularChars.size(); ++i) {
+            pattern = regularChars[i];
             if (pattern == ".") {
-                table[i][0] = table[i - 1][0] || count_point;
-                count_point = true;
+                table[i][0] = table[i - 1][0] || isPoint;
+                isPoint = true;
             } else if (pattern.size() == 2) {
                 table[i][0] = table[i - 1][0];
             } else {
@@ -61,8 +61,8 @@ public:
             }
         }
 
-        for (int i = 1; i < qwe.size(); ++i) {
-            pattern = qwe[i];
+        for (int i = 1; i < regularChars.size(); ++i) {
+            pattern = regularChars[i];
             for (int j = 1; j < s.size(); ++j) {
                 target = s[j];
                 if (pattern == ".") {
@@ -75,13 +75,13 @@ public:
             }
         }
         std::cout<<std::endl;
-        for (int i = 0; i < qwe.size(); ++i) {
+        for (int i = 0; i < regularChars.size(); ++i) {
             for (int j = 0; j < s.size(); ++j) {
                 std::cout<<table[i][j]<<" ";
             }
             std::cout<<std::endl;
         }
-        return table[qwe.size() - 1][s.size() - 1] == 0;
+        return table[regularChars.size() - 1][s.size() - 1] == 0;
     }
 };
 

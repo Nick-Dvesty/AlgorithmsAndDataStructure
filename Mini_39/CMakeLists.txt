@@ -3,4 +3,6 @@ project(Mini_39)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Mini_39 main.cpp)
+add_executable(Mini_39 main.cpp
+        f.cpp
+        f.h)
