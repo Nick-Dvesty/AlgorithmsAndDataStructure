@@ -6,8 +6,8 @@
 
 UnionFind::UnionFind(int size) {
     rank = new Vector<int>(size);
-    count = new Vector<int>(size);
-    parent = new Vector<int>(size);
+    count = new Vector<int>(size);  //count using field in union
+    parent = new Vector<int>(size); //parent elements
     for (int i = 0; i < parent->size(); ++i) {
         (*parent)[i] = i;
     }
@@ -20,6 +20,7 @@ int UnionFind::Find(int elem) {
 }
 
 void UnionFind::Union(int firstElem, int SecondElem) {
+    if (Find(firstElem) == Find(SecondElem)) return;
     int IndMaxPar = (*rank)[Find(firstElem)] >(*rank)[Find(SecondElem)] ?
             Find(firstElem) : Find(SecondElem);
     int IndMinPar = (*rank)[Find(firstElem)] <= (*rank)[Find(SecondElem)] ?
@@ -34,7 +35,9 @@ void UnionFind::Union(int firstElem, int SecondElem) {
 int UnionFind::GetFree(int elem) {
     int oldParent = Find(elem);
     int newElem = oldParent - (*count)[oldParent];
-    if (newElem < 0) newElem = rank->size() - 1;
+    if (newElem < 0) {
+        return GetFree(rank->size() - 1);
+    }
     int newParent = Find(newElem);
 
     if ((*count)[newParent] == 0) {

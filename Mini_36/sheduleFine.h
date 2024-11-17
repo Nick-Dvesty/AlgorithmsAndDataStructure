@@ -22,7 +22,6 @@ int g_scheduleFine(Vector<Pair<int, int>> tasks){
         int parent = search->Find(deadline);
         int free = search->GetFree(parent);
         answer[free] = tasks[i];
-        search->Union(free, parent);
     }
 
     int result = 0;

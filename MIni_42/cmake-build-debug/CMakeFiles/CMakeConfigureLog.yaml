@@ -459,3 +459,36 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/lib/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/lib/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/lib/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "googletest/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "googletest/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/MIni_42/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uDPd2d"
+      binary: "/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/MIni_42/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uDPd2d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/MIni_42/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uDPd2d'
+        
+        Run Build Command(s): /usr/lib/clion-2024.1.4/bin/ninja/linux/x64/ninja -v cmTC_f7952
+        [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_f7952.dir/src.c.o -c /home/modnick/Documents/ProgramProjects/CLionProjects/AlgorithmsAndDataStructure/MIni_42/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uDPd2d/src.c
+        [2/2] : && /usr/bin/cc   CMakeFiles/cmTC_f7952.dir/src.c.o -o cmTC_f7952   && :
+        
+      exitCode: 0
+...

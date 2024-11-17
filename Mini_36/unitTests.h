@@ -41,4 +41,111 @@ TEST(test3, basename){
     ASSERT_EQ(g_scheduleFine(arr), 0);
 }
 
+
+TEST(Luba1, test){
+    Vector<Pair<int, int>>arr{5};
+    arr[0] = Pair<int, int>(5, 0);
+    arr[1] = Pair<int, int>(4, 0);
+    arr[2] = Pair<int, int>(3, 0);
+    arr[3] = Pair<int, int>(2, 0);
+    arr[4] = Pair<int, int>(1, 0);
+    ASSERT_EQ(g_scheduleFine(arr), 10);
+
+}
+
+TEST(rost1, test){
+    Vector<Pair<int, int>>arr {
+    Pair<int, int>(1,11),
+    Pair<int, int>(1,11),
+    Pair<int, int>(1,11),
+    Pair<int, int>(1,11),
+    Pair<int, int>(1,11),
+    Pair<int, int>(1,11),
+    Pair<int, int>(1,11),
+    Pair<int, int>(1,11),
+    Pair<int, int>(1,11),
+    Pair<int, int>(1,11),
+    Pair<int, int>(1,11),
+    Pair<int, int>(1, 11)};
+    ASSERT_EQ(g_scheduleFine(arr), 0);
+
+}
+
+TEST(rost2, test){
+    Vector<Pair<int, int>>arr {
+            Pair<int, int>(1,11),
+            Pair<int, int>(11,1),
+            Pair<int, int>(11,1),
+            Pair<int, int>(1,1),
+            Pair<int, int>(1,1),
+            Pair<int, int>(1,1),
+            Pair<int, int>(1,1),
+            Pair<int, int>(1,1),
+            Pair<int, int>(1,1),
+            Pair<int, int>(1,1),
+            Pair<int, int>(1,1),
+            Pair<int, int>(1, 1)};
+    ASSERT_EQ(g_scheduleFine(arr), 9);
+
+}
+TEST(rost3, test){
+    Vector<Pair<int, int>>arr {
+            Pair<int, int>(12,0),
+            Pair<int, int>(12,1),
+            Pair<int, int>(12,2),
+            Pair<int, int>(12,3),
+            Pair<int, int>(12,4),
+            Pair<int, int>(12,5),
+            Pair<int, int>(12,6),
+            Pair<int, int>(11,8),
+            Pair<int, int>(12,8),
+            Pair<int, int>(12,8),
+            Pair<int, int>(12,9),
+            Pair<int, int>(1,9)};
+    ASSERT_EQ(g_scheduleFine(arr), 12);
+}
+
+TEST(rost4, test){
+    Vector<Pair<int, int>>arr {
+            Pair<int, int>(6,0),
+            Pair<int, int>(7,1),
+            Pair<int, int>(8,2),
+            Pair<int, int>(9,3),
+            Pair<int, int>(10,4),
+            Pair<int, int>(11,5),
+            Pair<int, int>(12,6),
+            Pair<int, int>(11,8),
+            Pair<int, int>(12,8),
+            Pair<int, int>(13,8),
+            Pair<int, int>(12,9),
+            Pair<int, int>(1,9)};
+    ASSERT_EQ(g_scheduleFine(arr), 7);
+}
+
+
+TEST(rost5, test){
+    Vector<Pair<int, int>>arr {
+            Pair<int, int>(12, 0),
+            Pair<int, int>(12, 1),
+            Pair<int, int>(12,2),
+            Pair<int, int>(12,3),
+            Pair<int, int>(12,4),
+            Pair<int, int>(12,5),
+            Pair<int, int>(12,6),
+            Pair<int, int>(11,6),
+            Pair<int, int>(10,6),
+            Pair<int, int>(9,6),
+            Pair<int, int>(8,6),
+            Pair<int, int>(1,11),};
+    ASSERT_EQ(g_scheduleFine(arr), 38);
+}
+
+
+TEST(rost6, test){
+    Vector<Pair<int, int>>arr {
+            Pair<int, int>(8, 0),
+            Pair<int, int>(38, 0),};
+    ASSERT_EQ(g_scheduleFine(arr), 8);
+}
+
 #endif //MINI_36_TESTS_H

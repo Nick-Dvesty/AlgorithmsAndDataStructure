@@ -8,32 +8,35 @@
 #include <iostream>
 #include <vector>
 
-#include "implictNode.h"
+template<typename T> class Treap;
+template<typename T> using pairTreaps = std::pair<Treap<T>*, Treap<T>*>;
 
-template<typename T, bool (*K)(T, T)> class Treap;
-template<typename T, bool (*K)(T, T)> using pairTreaps = std::pair<Treap<T,K>*, Treap<T,K>*>;
-
-template<typename T, bool (*K)(T, T)>
+template<typename T>
 class Treap {
 public:
-                            Treap(T* key);
-                            Treap(std::vector<T>* keys);
-    Treap<T, K>*            getParent();
-    Treap<T, K>*            getLeftChild();
-    Treap<T, K>*            getRightChild();
+                            Treap(T key);
+                            Treap(T* keys, size_t size);
+    Treap<T>*               getParent();
+    Treap<T>*               getLeftChild();
+    Treap<T>*               getRightChild();
     T                       getKey();
-    void                    insert(T& newElem, unsigned int pos);
+    T                       getSum(unsigned int startIndex, unsigned int endIndex);
+    void                    insert(T newElem, unsigned int pos);
     void                    erase(unsigned int pos);
-    static Treap<T, K>*     merge(Treap<T, K>* left, Treap<T, K>* right);
-    static pairTreaps<T, K> splitBySize(Treap<T, K>* rootPart, unsigned int size);
-    static void             updateC(Treap<T, K>& rootPart);
-    static bool             compareT(T left, T right);
+
 private:
-    T*                      key;
-    Treap<T, K>*            parent;
-    Treap<T, K>*            leftChild;
-    Treap<T, K>*            rightChild;
-    unsigned int            c;
+    static Treap<T>*        merge(Treap<T>* left, Treap<T>* right);
+    static pairTreaps<T>    splitBySize(Treap<T>* rootPart, unsigned int size);
+    static void             updateC(Treap<T>& rootPart);
+    static void             updateSum(Treap<T> &rootPart);
+    void                    moveInThis(Treap<T> &rootPart);
+
+    T                       key;
+    Treap<T>*               parent;
+    Treap<T>*               leftChild;
+    Treap<T>*               rightChild;
+    unsigned int            count;
+    T                       sum;
     unsigned int            prior;
 
 };
